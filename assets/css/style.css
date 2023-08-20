@@ -3,6 +3,8 @@
     margin: 0;
 
     padding: 0;
+
+    box-sizing: border-box;
 }
 
 
@@ -69,4 +71,52 @@ header nav ul li a {
 
     font-size: 22px;
 
+}
+
+footer {
+
+    background: #fce138;
+
+    width: 100%;
+
+    padding: 40px;
+
+
+}
+
+footer h2 {
+
+    display: inline;
+
+    color: #024e76;
+
+    font-size: 30px;
+
+    margin: 0px;
+
+}
+
+footer div {
+
+    float: right;
+
+    line-height: 1.5;
+
+    text-align: right;
+
+    margin-right: 10px;
+
+}
+
+footer a {
+
+    color: #024e76;
+
+}
+
+#workedoutbefore {
+
+    display: inline;
+    border-style: solid;
+    border-color: black;
 }
