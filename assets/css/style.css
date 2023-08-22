@@ -61,6 +61,7 @@ header nav {
 header nav ul li {
 
     display: inline;
+    height:100px;
 
 }
 
@@ -124,4 +125,41 @@ footer a {
 #workedoutbefore input {
 
     padding: 0 5px;
+}
+
+section {
+
+    padding: 60px;
+
+}
+
+.hero {
+
+      background-image: url("../images/hero-bg.jpg");
+      
+      height: 600px;
+
+      background-size: cover;
+
+      background-position: center;
+
+}
+
+.hero-div {
+
+    background-color: #fce138;
+
+    color: #024e76;
+
+
+
+}
+
+.form-class {
+
+    display:block;
+
+    width:
+
+
 }
