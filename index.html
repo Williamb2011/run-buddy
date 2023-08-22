@@ -17,12 +17,12 @@
     <header>
 
 
-            <a href="index.html">
-                
-                <!-- <h1>🏃 RUN BUDDY</h1> -->
-                <h1>RUN BUDDY</h1>
-            
-            </a>
+        <a href="index.html">
+
+            <!-- <h1>🏃 RUN BUDDY</h1> -->
+            <h1>RUN BUDDY</h1>
+
+        </a>
 
 
         <nav>
@@ -72,52 +72,62 @@
 
         <div>
 
-            <!--inner box containing entry elements allowing 2 color border-->
+            <h3>Get Started Today</h3>
 
-            <h2>Get Started Today!</h2>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
 
-            <p>Fill out this form and one of our trainers will schedule a consult.</p>
+            <!--add a form element-->
 
-            <!--div for data entry-->
+            <form>
 
-            <div>
+                <label for="name">Enter full name:</label>
 
-                <p>Enter full name:</p>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
 
-                <input type="text" placeholder="Your Name">
+                <label for="email">Enter Email Address:</label>
 
-                <p>Enter email address:</p>
+                <input type="email" placeholder="Your Email Address" name="email" id="email" />
 
-                <input type="text" placeholder="Email Address">
+                <label for="phone">Enter your phone number:</label>
 
-                <p>Enter a telephone number:</p>
+                <input type="tel" placeholder="Your phone number" name="phone" id="phone" />
 
-                <input type="text" placeholder="Phone Number">
+                <p>
+                    Have you worked out with a trainer before?
 
-                <div id="workedoutbefore">
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
 
-                    <p>Have you worked out with a trainer before?</p>
+                    <label for="trainer-yes">Yes</label>
 
-                    <input type="radio" name="trainer" id="traineryes" />
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
 
-                    <label for="traineryes">Yes</label>
+                    <label for="trainer-no">No</label>
 
-                    <input type="radio" name="trainer" id="trainerno" />
+                </p>
 
-                    <label for="trainerno">No</label>
+                <p>
 
-                </div>
+                    <label for="checkbox">
+
+                        I acknowledge that I am at least 18 years of age
+
+                    </label>
+
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+
+                </p>
+
+                <button type="submit">
+
+                    Get Running!
+
+                </button>
 
 
 
-
-            </div>
-
-
+            </form>
 
         </div>
-
-
 
 
     </section>

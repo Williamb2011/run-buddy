@@ -1,6 +1,7 @@
 * {
 
     margin: 0;
+   
 
     padding: 0;
 
@@ -116,7 +117,11 @@ footer a {
 
 #workedoutbefore {
 
-    display: inline;
-    border-style: solid;
-    border-color: black;
+    display: inline-flex;
+    
+}
+
+#workedoutbefore input {
+
+    padding: 0 5px;
 }
