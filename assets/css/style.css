@@ -1,7 +1,7 @@
 * {
 
     margin: 0;
-   
+
 
     padding: 0;
 
@@ -15,7 +15,7 @@ body {
 
     font-family: Helvetica, Arial, sans-serif;
 
-   color: #39a6b2;
+    color: #39a6b2;
 
 }
 
@@ -26,12 +26,12 @@ header {
     background-color: #39a6b2;
 
 
-}   
+}
 
 header h1 {
 
     font-weight: bold;
-    
+
     font-size: 36px;
 
     color: #fce138;
@@ -61,7 +61,7 @@ header nav {
 header nav ul li {
 
     display: inline;
-    height:100px;
+    height: 100px;
 
 }
 
@@ -119,7 +119,7 @@ footer a {
 #workedoutbefore {
 
     display: inline-flex;
-    
+
 }
 
 #workedoutbefore input {
@@ -135,31 +135,47 @@ section {
 
 .hero {
 
-      background-image: url("../images/hero-bg.jpg");
-      
-      height: 600px;
+    background-image: url("../images/hero-bg.jpg");
 
-      background-size: cover;
+    height: 600px;
 
-      background-position: center;
+    background-size: cover;
+
+    background-position: center;
 
 }
 
-.hero-div {
+.hero-form {
 
     background-color: #fce138;
 
     color: #024e76;
 
+    padding: 20px;
 
-
+    width: 500px;
+    
+    border: 3px #024e76 solid;
 }
 
 .form-class {
 
-    display:block;
+    display: block;
 
-    width:
 
+
+
+}
+
+.form-class ul li {
+
+    display: block;
+    padding: 5px;   
+
+}
+
+.form-class ul li input {
+
+    width:100%
 
 }
